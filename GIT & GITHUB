@@ -13,7 +13,8 @@ git config ==> git config --global user.email sam@google.com
 git init ==> git init
 //Este comando é usado para criar um novo repositório GIT. Uso:
 
-git add ==> git add temp.txt
+git add ==> adiciona apenas 1 arquivo por vezes
+git add * ==> git add temp.txt ou git add *
 //O comando git add pode ser usado para adicionar arquivos ao índice dentro  da pasta
 
 git  clone ==> git clone alex@93.188.160.58:/path/to/repository
